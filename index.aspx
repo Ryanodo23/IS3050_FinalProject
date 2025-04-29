@@ -11,7 +11,7 @@ Ryan O'Donnell - Github: Ryanodo23
 <head runat="server">
     <title>Forecasters</title>
     <style>
-        /* Button Styles */
+        /*Button Styles*/
         .button-solution-4 {
             background-color: red;
             color: white;
@@ -34,7 +34,7 @@ Ryan O'Donnell - Github: Ryanodo23
         <asp:Table ID="Table1" runat="server">
             <asp:TableRow>
                 <asp:TableCell>
-                    Clear Leetcode Solutions
+                    Leetcode Solutions
                 </asp:TableCell>
                 <asp:TableCell>
                     <asp:Button ID="Button1" runat="server" Text="Solution #4" OnClick="Button1_Click" CssClass="button-solution-4" />
@@ -47,7 +47,9 @@ Ryan O'Donnell - Github: Ryanodo23
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table> 
-
+        <asp:Label ID="lbl1" runat="server" Text="" />
+        <br />
+        <asp:Label ID="lbl2" runat="server" Text=""></asp:Label>
         <br />
         <asp:Label ID="MessageLabel" runat="server" Text="" ForeColor="Green" />
     </form>
